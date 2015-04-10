@@ -1,0 +1,9 @@
+# will load from "{{site.baseurl}}/js/{{asset.src}}.js"
+js:
+    - src: footer
+    - src: jquery.freetile.min
+    - src: highcharts/highcharts
+    - src: highcharts/modules/data
+
+# unused at the moment
+css:

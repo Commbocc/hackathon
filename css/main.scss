@@ -1,0 +1,50 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+@import "font-awesome";
+
+@import "bootswatch/cosmo/variables";
+@import "bootstrap";
+@import "bootswatch/cosmo/bootswatch";
+
+#navBar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	
+	background: #222222; /* Old browsers */
+background: -moz-linear-gradient(top,  #222222 0%, #090909 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#222222), color-stop(100%,#090909)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #222222 0%,#090909 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #222222 0%,#090909 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #222222 0%,#090909 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #222222 0%,#090909 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#090909',GradientType=0 ); /* IE6-9 */
+
+	
+	h1 {
+		font-family: courier;
+		color: #fff;
+		small {
+			font-family: arial;
+			color: #bbb;
+			text-transform: uppercase;
+		}
+	}
+}
+
+// all but xs
+@media (min-width: 768px) {
+	// nav
+
+}
+
+// news images
+.media-list.news .media-object { max-width: 64px; }
+@media (min-width: 768px) {
+	.media-list.news .media-object { max-width: 96px; }
+}
