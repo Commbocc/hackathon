@@ -4,9 +4,7 @@
 		<div class="col-xs-12">
 
 			<ul class="nav nav-pills pull-right">
-				{% for navitem in site.data.navitems %}
-				<li><a href="{{ navitem.href | prepend: site.baseurl }}">{{navitem.text}}</a></li>
-				{% endfor %}
+				{% include navitems.html %}
 			</ul>
 		</div>
 	</div>
@@ -34,9 +32,7 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 			<ul class="nav navbar-nav navbar-right">
-				{% for navitem in site.data.navitems %}
-				<li><a href="{{ navitem.href | prepend: site.baseurl }}">{{navitem.text}}</a></li>
-				{% endfor %}
+				{% include navitems.html %}
 			</ul>
 
 			<!-- <ul class="nav navbar-nav navbar-right"></ul> -->

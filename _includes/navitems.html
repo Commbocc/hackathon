@@ -1,0 +1,7 @@
+{% for navitem in site.data.navitems %}
+<li>
+	<a href="{{ navitem.href | prepend: site.baseurl }}" {% if navitem.target %}target="{{navitem.target}}"{%endif%} >
+		{{navitem.text}}
+	</a>
+</li>
+{% endfor %}

@@ -7,7 +7,7 @@ layout: default
 		<div class="row">
 			<div class="col-sm-6 col-md-7">
 				<div class="text-center">
-					<img id="logo" src="/images/logo-white.png" class="img-responsive">
+					<img id="logo" src="/images/logo-white.png" alt="Hillsborough Hackathon" class="img-responsive">
 					<!-- <h1>
 						<small>Hillsborough</small><br>
 						&lt;hack-a-thon&gt;
@@ -22,7 +22,8 @@ layout: default
 				<p>
 					<small>Hillsborough County and our community technologists, entrepeneurs and developers invite you to create new and innovative applications for community solutions.</small>
 				</p>
-				<a href="#" class="btn btn-default">Register</a>
+				<a href="#" class="btn btn-success">Register</a>
+				<a href="#" class="btn btn-default">Learn More</a>
 			</div>
 		</div>
 
@@ -31,12 +32,13 @@ layout: default
 
 <div class="container">
 
-	<nav class="navbar navbar-inverse hidden-xs">
+	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
-				<a class="navbar-brand" href="{% post_url 2015-04-10-national-civic-hacking-day %}">
-					<i class="fa fa-fw fa-code"></i> National Day of Civic Coding
+				<a class="navbar-brand" href="{% post_url 2015-04-23-2015-hillsborough-hackathon %}">
+					<i class="fa fa-fw fa-info-circle"></i>
+					June 5-7 <em class="small">5426 Bay Center Drive<span class="hidden-xs">, Suite 700, Tampa</span></em>
 				</a>
 			</div>
 
@@ -45,8 +47,9 @@ layout: default
 
 				<ul class="nav navbar-nav navbar-right">
 					<p class="navbar-text text-right">
-						<a href="{% post_url 2015-04-23-2015-hillsborough-hackathon %}" class="navbar-link">
-							June 5-7, 2015 <i class="fa fa-fw fa-info-circle"></i>
+						<a href="{% post_url 2015-04-10-national-civic-hacking-day %}" class="navbar-link">
+							National Day of Civic Coding
+							<i class="fa fa-fw fa-code"></i>
 						</a>
 					</p>
 				</ul>
@@ -64,38 +67,38 @@ layout: default
 					</a>
 					<div class="caption">
 						<h3>UX Experts</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						<p class="lead">
+							Do you have a strong interest in the design and development of engaging user experiences?
 						</p>
 						<p class="text-right">
 							<a href="{% post_url 2015-04-23-2015-hillsborough-hackathon %}" class="">More Info</a>
 						</p>
 					</div>
 				</div>
+				<hr class="visible-xs">
 				<hr class="visible-xs">
 				<div class="col-sm-4">
 					<a href="{% post_url 2015-04-23-2015-hillsborough-hackathon %}">
 						<img src="/images/code.png" alt="..." class="img-responsive">
 					</a>
 					<div class="caption">
-						<h3>Programmers</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						<h3>Developers</h3>
+						<p class="lead">
+							Do you enjoy creating while following design and implementation principles?
 						</p>
 						<p class="text-right">
 							<a href="{% post_url 2015-04-23-2015-hillsborough-hackathon %}" class="">More Info</a>
 						</p>
 					</div>
 				</div>
-				<hr class="visible-xs">
 				<div class="col-sm-4">
 					<a href="{% post_url 2015-04-23-2015-hillsborough-hackathon %}">
 						<img src="/images/circuit-board.png" alt="..." class="img-responsive">
 					</a>
 					<div class="caption">
-						<h3>Developers</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						<h3>Programmers</h3>
+						<p class="lead">
+							Do you find yourself solving problems by manipulating computer code?
 						</p>
 						<p class="text-right">
 							<a href="{% post_url 2015-04-23-2015-hillsborough-hackathon %}" class="">More Info</a>
@@ -108,20 +111,13 @@ layout: default
 
 	<div class="row">
 		<div class="col-lg-5 col-lg-offset-1 col-sm-6 text-center">
-			<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/HackForChange" data-widget-id="591248835411869698">#HackForChange Tweets</a>
+			<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/HillsbHack" data-widget-id="591240003193274368">#HillsbHack Tweets</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div>
 		<div class="col-lg-5 col-sm-6 text-center">
-			<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/HillsbHack" data-widget-id="591240003193274368">#HillsbHack Tweets</a>
+			<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/HackForChange" data-widget-id="591248835411869698">#HackForChange Tweets</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
 		</div>
 	</div>
 
 </div>
-
-<!-- <div class="row text-center" style="margin-top: 25px;">
-	<div class="col-xs-4"><i class="fa fa-5x fa-mobile"></i></div>
-	<div class="col-xs-4"><i class="fa fa-5x fa-desktop"></i></div>
-	<div class="col-xs-4"><i class="fa fa-5x fa-tablet"></i></div>
-</div> -->

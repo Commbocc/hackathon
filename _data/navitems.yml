@@ -3,6 +3,7 @@
 - text: News
   href: /news
 - text: Register
-  href: /
+  href: http://eventbrite.com
+  target: _blank
 - text: Sponsor
   href: /
