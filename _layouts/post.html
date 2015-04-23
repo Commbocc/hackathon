@@ -2,40 +2,47 @@
 layout: default
 ---
 
-<header class="page-header">
-	<h1>
-		{{ page.title }}
-		<!-- <br> -->
-		<!-- <small>
-			{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
-		</small> -->
-	</h1>
-</header>
+<div class="container">
 
-<div class="row">
-	
-	<article class="col-sm-7 col-md-8">
+	<header class="page-header">
+		<h1>
+			{{ page.title }}
+			<!-- <br> -->
+			<!-- <small>
+				{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+			</small> -->
+		</h1>
+	</header>
 
-		{% if page.image %}
-		<p>
-			<img class="img-thumbnail" src="{{ site.baseurl }}/images/{{ page.image }}" alt="{{ page.title }}" style="display: block; margin: 0 auto;">
-		</p>
-		{% elsif page.remote_image %}
-		<p>
-			<img class="img-thumbnail" src="{{ page.remote_image }}" alt="{{ page.title }}" style="display: block; margin: 0 auto;">
-		</p>
-		{% endif %}
+	<div class="row">
+		
+		<article class="col-sm-7 col-md-8">
+			<div class="panel panel-default">
+				<div class="panel-body">
 
-		{{ content }}
-	</article>
+					{% if page.image %}
+					<p>
+						<img class="img-thumbnail" src="{{ site.baseurl }}/images/{{ page.image }}" alt="{{ page.title }}" style="display: block; margin: 0 auto;">
+					</p>
+					{% elsif page.remote_image %}
+					<p>
+						<img class="img-thumbnail" src="{{ page.remote_image }}" alt="{{ page.title }}" style="display: block; margin: 0 auto;">
+					</p>
+					{% endif %}
 
-	<aside class="col-sm-5 col-md-4">
+					{{ content }}
+				</div>
+			</div>
+		</article>
 
-		<!-- {#% include most-recent.html %} -->
+		<aside class="col-sm-5 col-md-4">
 
-		{% include sidebar.html %}
-	</aside>
+			<!-- {#% include most-recent.html %} -->
 
+			{% include sidebar.html %}
+		</aside>
+
+
+	</div>
 
 </div>
-

@@ -6,15 +6,35 @@
 
 @import "font-awesome";
 
-@import "bootswatch/cosmo/variables";
+@import "bootswatch/cosmo_hack/variables";
 @import "bootstrap";
-@import "bootswatch/cosmo/bootswatch";
+@import "bootswatch/cosmo_hack/bootswatch";
+
+body {
+	background: #f1f1f1;
+}
 
 #navBar {
 	margin-bottom: 0;
+	// border-bottom: none;
+	li a {
+		color: $brand-primary;
+		font-family: courier;
+	}
+}
+
+#navPills {
+	// margin: 5px 0;
+	padding: 5px 0;
+}
+
+.courier {
+	font-family: courier;
 }
 
 .jumbotron {
+
+	color: #fff;
 	
 	background: #222222; /* Old browsers */
 	background: -moz-linear-gradient(top,  #222222 0%, #090909 100%); /* FF3.6+ */
@@ -29,7 +49,7 @@
 		font-family: courier;
 		color: #fff;
 		small {
-			font-family: arial;
+			font-family: $font-family-sans-serif;
 			font-size: 45%;
 			color: #bbb;
 			text-transform: uppercase;
@@ -38,15 +58,13 @@
 }
 
 // all but xs
-@media (min-width: 768px) {
+@media (min-width: $screen-sm-min) {
 	// nav
-
 	footer {
 		nav {
 			text-align: right !important;
 		}
 	}
-
 }
 
 // news images
@@ -54,3 +72,9 @@
 @media (min-width: 768px) {
 	.media-list.news .media-object { max-width: 96px; }
 }
+
+// logo
+#logo{margin-bottom: 15px;}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { #logo{margin-top: 125px;} }
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) { #logo{margin-top: 85px;} }
+@media (min-width: $screen-lg-min) { #logo{margin-top: 45px;} }
