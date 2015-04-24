@@ -1,7 +1,7 @@
 # Site settings
 title: Hillsborough Hackathon
 
-email: your-email@domain.com
+# email: your-email@domain.com
 
 description: >
   A different kind of competition is heating up in Hillsborough County as designers, developers and tech entrepreneurs face-off in Hillsborough County’s Hack-A-Thon.
@@ -11,8 +11,11 @@ event_date: "Saturday, June 6, 2015"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hackhillsborough.com" # the base hostname & protocol for your site
 
-twitter_username: jekyllrb
-github_username:  jekyll
+# eventbrite: "http://eventbrite.com/#Hackathon"
+eventbrite: "/news/2015/04/23/2015-hillsborough-hackathon.html"
+
+# twitter_username: jekyllrb
+# github_username:  jekyll
 
 # Build settings
 markdown: kramdown

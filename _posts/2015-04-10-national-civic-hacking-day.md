@@ -2,6 +2,8 @@
 layout: post
 title:  "National Day of Civic Hacking"
 date:   2015-04-10 12:25:17
+image: civic-hacking.png
+categories: news
 excerpt: "On June 6, 2015, thousands of people from across the United States will come together for National Day of Civic Hacking"
 ---
 

@@ -36,7 +36,7 @@ body {
 	font-family: courier;
 }
 
-.jumbotron {
+#homeJumbo {
 
 	color: #fff;
 	
@@ -59,6 +59,10 @@ body {
 			text-transform: uppercase;
 		}
 	}
+}
+
+#announcements {
+
 }
 
 // all but xs
@@ -86,6 +90,6 @@ body {
 
 // logo
 #logo{margin-bottom: 15px;}
-@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { #logo{margin-top: 100px;} }
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max) { #logo{margin-top: 80px;} }
-@media (min-width: $screen-lg-min) { #logo{margin-top: 60px;} }
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { #logo{margin-top: 125px;} }
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) { #logo{margin-top: 90px;} }
+@media (min-width: $screen-lg-min) { #logo{margin-top: 70px;} }

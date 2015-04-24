@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<div class="jumbotron">
+<div class="jumbotron" id="homeJumbo">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4 col-md-5">
+			<div class="col-sm-5">
 				<div class="text-center">
 					<img id="logo" src="/images/logo-white.png" alt="Hillsborough Hackathon" class="img-responsive">
 					<!-- <h1>
@@ -14,7 +14,7 @@ layout: default
 					</h1> -->
 				</div>
 			</div>
-			<div class="col-sm-8 col-md-7">
+			<div class="col-sm-7">
 				<h2>
 					<small>Enter The</small><br>
 					2015 Hillsborough Hackathon
@@ -22,7 +22,7 @@ layout: default
 				<p>
 					Hillsborough County and our community technologists, entrepeneurs and developers invite you to create new and innovative applications for community solutions.
 				</p>
-				<a href="#" class="btn btn-success">Register</a>
+				<a href="{{site.eventbrite}}" target="_blank" class="btn btn-success">Register</a>
 				<a href="{% post_url 2015-04-23-2015-hillsborough-hackathon %}" class="btn btn-default">Learn More</a>
 			</div>
 		</div>
@@ -30,8 +30,8 @@ layout: default
 	</div>
 </div>
 
+{% if true %}
 <div class="container">
-
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -57,6 +57,18 @@ layout: default
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
+</div>
+{% endif %}
+
+{% if false %}
+<div class="jumbotron" id="announcements">
+	<div class="container">
+		<h3>Announcements</h3>
+	</div>
+</div>
+{% endif %}
+
+<div class="container">
 
 	<div class="panel panel-default">
 		<div class="panel-body">
@@ -67,7 +79,7 @@ layout: default
 					</a>
 					<div class="caption">
 						<h3>UX Experts</h3>
-						<p class="lead">
+						<p class="lead auto-height">
 							Do you have a strong interest in the design and development of engaging user experiences?
 						</p>
 						<p class="text-right">
@@ -82,7 +94,7 @@ layout: default
 					</a>
 					<div class="caption">
 						<h3>Developers</h3>
-						<p class="lead">
+						<p class="lead auto-height">
 							Do you enjoy creating while following design and implementation principles?
 						</p>
 						<p class="text-right">
@@ -97,7 +109,7 @@ layout: default
 					</a>
 					<div class="caption">
 						<h3>Programmers</h3>
-						<p class="lead">
+						<p class="lead auto-height">
 							Do you find yourself solving problems by manipulating computer code?
 						</p>
 						<p class="text-right">
