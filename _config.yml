@@ -11,8 +11,7 @@ event_date: "Saturday, June 6, 2015"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hackhillsborough.com" # the base hostname & protocol for your site
 
-# eventbrite: "http://eventbrite.com/#Hackathon"
-eventbrite: "/news/2015/04/23/2015-hillsborough-hackathon.html"
+eventbrite: "https://www.eventbrite.com/e/2015-hillsborough-hackathon-tickets-16730645812"
 
 # twitter_username: jekyllrb
 # github_username:  jekyll
