@@ -16,4 +16,4 @@ Hillsborough County is opening up data from numerous departments to Tampa Bay’
 
 Powered by County-provided data, Hillsborough Hack-A-Thon participants will flex their creative spirit and build applications that can benefit the community. The Hillsborough Hack-A-Thon is open to all college students and community designers and developers. The ultimate goal is to demonstrate the potential impact of open data and technological development on the economic prosperity of our community.
 
-[Online registration]({{site.eventbrite}}){:target="_blank"} for participants will open soon and run through Thursday, May 28.
+[Online registration]({{site.eventbrite}}){:target="_blank"} for participants is now open and will run through Thursday, May 28.
