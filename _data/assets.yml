@@ -1,6 +1,7 @@
 # will load from "{{site.baseurl}}/js/{{asset.src}}.js"
 js:
     - src: footer
+    - src: autoheight
     - src: jquery.freetile.min
     - src: highcharts/highcharts
     - src: highcharts/modules/data

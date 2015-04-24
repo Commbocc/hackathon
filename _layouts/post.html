@@ -2,40 +2,49 @@
 layout: default
 ---
 
-<header class="page-header">
-	<h1>
-		{{ page.title }}
-		<!-- <br> -->
-		<!-- <small>
-			{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
-		</small> -->
-	</h1>
-</header>
+<div class="container">
 
-<div class="row">
-	
-	<article class="col-sm-7 col-md-8">
+	<header class="page-header">
+		<h1>
+			{{ page.title }}
+			<!-- <br> -->
+			<!-- <small>
+				{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+			</small> -->
+		</h1>
+	</header>
 
-		{% if page.image %}
-		<p>
-			<img class="img-thumbnail" src="{{ site.baseurl }}/images/{{ page.image }}" alt="{{ page.title }}" style="display: block; margin: 0 auto;">
-		</p>
-		{% elsif page.remote_image %}
-		<p>
-			<img class="img-thumbnail" src="{{ page.remote_image }}" alt="{{ page.title }}" style="display: block; margin: 0 auto;">
-		</p>
-		{% endif %}
+	<ol class="breadcrumb">
+		<li><a href="/">Home</a></li>
+		<li><a href="/news">News</a></li>
+		<li class="active">{{ page.title }}</li>
+	</ol>
 
-		{{ content }}
-	</article>
+	<div class="row">
+		
+		<article class="col-sm-7 col-md-8">
+			<div class="panel panel-default">
+				<div class="panel-body">
 
-	<aside class="col-sm-5 col-md-4">
+					{% if page.image %}
+					<p>
+						<img class="img-thumbnail" src="{{ site.baseurl }}/images/{{ page.image }}" alt="{{ page.title }}" style="display: block; margin: 0 auto;">
+					</p>
+					{% elsif page.remote_image %}
+					<p>
+						<img class="img-thumbnail" src="{{ page.remote_image }}" alt="{{ page.title }}" style="display: block; margin: 0 auto;">
+					</p>
+					{% endif %}
 
-		<!-- {#% include most-recent.html %} -->
+					{{ content }}
+				</div>
+			</div>
+		</article>
 
-		{% include sidebar.html %}
-	</aside>
+		<aside class="col-sm-5 col-md-4">
+			{% include sidebar.html %}
 
-
+			{% include most-recent.html %}
+		</aside>
+	</div>
 </div>
-

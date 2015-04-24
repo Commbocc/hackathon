@@ -1,4 +1,4 @@
-<div class="panel panel-warning">
+<div class="panel panel-default">
 	<!-- Default panel contents -->
 	<div class="panel-heading">
 		<h3 class="panel-title text-center">Most Recent News</h3>
@@ -7,7 +7,7 @@
 	<!-- List group -->
 	<div class="list-group">
 		{% for post in site.posts limit:5 %}
-		<a href="{{ post.url | prepend: site.baseurl }}" class="list-group-item {% if page.url == post.url %}list-group-item-danger{%endif%}">{{ post.title }}</a>
+		<a href="{{ post.url | prepend: site.baseurl }}" class="list-group-item {% if page.url == post.url %}active{%endif%}">{{ post.title }}</a>
 		{% endfor %}
 	</div>
 </div>
