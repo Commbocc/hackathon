@@ -21,6 +21,10 @@ body {
 		color: $brand-primary;
 		font-family: courier;
 	}
+
+	.navbar-brand {
+		font-size: 17px;
+	}
 }
 
 #navPills {
@@ -60,6 +64,13 @@ body {
 // all but xs
 @media (min-width: $screen-sm-min) {
 	// nav
+
+	#navBar {
+		.navbar-brand {
+			font-size: 19px;
+		}
+	}
+
 	footer {
 		nav {
 			text-align: right !important;
@@ -75,6 +86,6 @@ body {
 
 // logo
 #logo{margin-bottom: 15px;}
-@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { #logo{margin-top: 125px;} }
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max) { #logo{margin-top: 85px;} }
-@media (min-width: $screen-lg-min) { #logo{margin-top: 45px;} }
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { #logo{margin-top: 100px;} }
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) { #logo{margin-top: 80px;} }
+@media (min-width: $screen-lg-min) { #logo{margin-top: 60px;} }
