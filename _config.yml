@@ -3,6 +3,9 @@ title: Hillsborough Hackathon
 
 # email: your-email@domain.com
 
+paginate: 10
+paginate_path: "/news/page:num"
+
 description: >
   A different kind of competition is heating up in Hillsborough County as designers, developers and tech entrepreneurs face-off in Hillsborough County’s Hack-A-Thon.
 
