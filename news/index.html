@@ -38,6 +38,11 @@ title: News and Information
 	{% endfor %}
 </ul>
 
+<p>
+    <a class="btn btn-xs btn-warning pull-right" href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS <i class="fa fa-fw fa-rss"></i></a>
+</p>
+
+
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
 <nav class="text-center">
