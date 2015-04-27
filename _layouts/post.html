@@ -28,11 +28,11 @@ layout: default
 
 					{% if page.image %}
 					<p>
-						<img class="img-thumbnail" src="{{ site.baseurl }}/images/{{ page.image }}" alt="{{ page.title }}" style="display: block; margin: 0 auto;">
+						<img class="img-responsive center-block" src="{{ site.baseurl }}/images/{{ page.image }}" alt="{{ page.title }}">
 					</p>
 					{% elsif page.remote_image %}
 					<p>
-						<img class="img-thumbnail" src="{{ page.remote_image }}" alt="{{ page.title }}" style="display: block; margin: 0 auto;">
+						<img class="img-responsive center-block" src="{{ page.remote_image }}" alt="{{ page.title }}">
 					</p>
 					{% endif %}
 
