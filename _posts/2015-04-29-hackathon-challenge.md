@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hillsborough Hack-a-thon Challenge Set for June 5-7"
+title:  "Hillsborough Hackathon Challenge Set for June 5-7"
 date:   2015-04-29 12:25:17
 categories: news
 excerpt: "National Day of Civic Hacking brings together technology professionals to create new applications and platforms."
@@ -16,7 +16,7 @@ The purpose of the Hackathon is to illustrate the power of open government pract
  
 The National Day of Civic Hacking is a unique opportunity to bring together some of the best and brightest minds in the technology community to push forward civic innovation and open idea-sharing.
  
-The event is free and open to the public. Developers and other interested participants can register online. For more information visit www.HackHillsborough.com.
+The event is free and open to the public. Developers and other interested participants can [register online]({{site.eventbrite}}){:target="_blank"}.
  
 ### About the Economic Development Innovation Initiative (EDI2)
 
