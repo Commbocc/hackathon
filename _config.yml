@@ -1,5 +1,5 @@
 # Site settings
-title: Hillsborough Hackathon
+title: Code 4 Hillsborough
 
 # email: your-email@domain.com
 
@@ -12,7 +12,7 @@ description: >
 event_date: "Saturday, June 6, 2015"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hackhillsborough.com" # the base hostname & protocol for your site
+url: "http://Code4Hillsborough.com" # the base hostname & protocol for your site
 
 eventbrite: "https://www.eventbrite.com/e/2015-hillsborough-hackathon-tickets-16730645812"
 
