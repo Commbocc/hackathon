@@ -2,7 +2,7 @@
 layout: post
 title:  "2015 Hillsborough Hackathon"
 date:   2015-04-23 12:25:17
-image: logo-black.png
+image: logo-hack-black.png
 categories: news
 excerpt: "Hillsborough County and our community technologists, entrepeneurs and developers invite you to join the weekend Hackathon to create new and innovative relative applications for community solutions."
 ---
