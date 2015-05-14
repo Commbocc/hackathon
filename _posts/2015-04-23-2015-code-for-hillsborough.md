@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "2015 Hillsborough Hackathon"
+title:  "2015 Code for Hillsborough"
 date:   2015-04-23 12:25:17
-image: logo-hack-black.png
+image: logo-code-black.png
 categories: news
-excerpt: "Hillsborough County and our community technologists, entrepeneurs and developers invite you to join the weekend Hackathon to create new and innovative relative applications for community solutions."
+excerpt: "Hillsborough County and our community technologists, entrepreneurs and developers invite you to join the weekend Hackathon to create new and innovative relative applications for community solutions."
 ---
 
 ## Call for Programmers, Developers, Graphic Designers, UX Experts and other Technologists
 
-Hillsborough County and our community technologists, entrepeneurs and developers invite you to join the weekend Hackathon to create new and innovative relative applications for community solutions.
+Hillsborough County and our community technologists, entrepreneurs and developers invite you to join the weekend Hackathon to create new and innovative relative applications for community solutions.
 {: .lead}
 
 Hillsborough County is opening up data from numerous departments to Tampa Bay’s technology community and is offering prizes for the best apps built on top of the data.
