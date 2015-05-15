@@ -18,6 +18,7 @@ eventbrite: "https://www.eventbrite.com/e/2015-code-for-hillsborough-tickets-167
 
 # twitter_username: jekyllrb
 # github_username:  jekyll
+googleanalytics: 'UA-63036279-1'
 
 # Build settings
 markdown: kramdown
