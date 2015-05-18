@@ -2,6 +2,7 @@
 layout: post
 title:  "Hillsborough Hackathon Challenge Set for June 5-7"
 date:   2015-04-29 12:25:17
+image: logo-hack-black.png
 categories: news
 excerpt: "National Day of Civic Hacking brings together technology professionals to create new applications and platforms."
 ---
