@@ -30,7 +30,7 @@ The event is free and open to the public. Developers and other interested partic
 		<tbody>
 			<tr>
 				<td>June 5, 2015</td>
-				<td>Kick-off at Microsoft (5:00 p.m. - 7:30 p.m.)</td>
+				<td>Kick-off at Microsoft (4:00 p.m. - 7:30 p.m.)</td>
 			</tr>
 			<tr>
 				<td>June 6, 2015</td>
