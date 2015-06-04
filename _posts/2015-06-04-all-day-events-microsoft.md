@@ -4,7 +4,7 @@ title:  "All Day Events at Microsoft"
 date:   2015-06-04 10:00:00
 image: microsoft-logo.png
 categories: news
-excerpt: Special Thanks to our Partners
+excerpt: Event schedule and a special thanks to our partners.
 ---
 
 <div class="table-responsive">
