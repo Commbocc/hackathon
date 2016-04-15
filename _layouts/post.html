@@ -7,10 +7,6 @@ layout: default
 	<header class="page-header">
 		<h1>
 			{{ page.title }}
-			<!-- <br> -->
-			<!-- <small>
-				{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
-			</small> -->
 		</h1>
 	</header>
 
@@ -21,7 +17,6 @@ layout: default
 	</ol>
 
 	<div class="row">
-		
 		<article class="col-sm-7 col-md-8">
 			<div class="panel panel-default">
 				<div class="panel-body">
@@ -37,6 +32,14 @@ layout: default
 					{% endif %}
 
 					{{ content }}
+
+					<hr>
+					<p class="small text-right">
+						<em>
+							{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+						</em>
+					</p>
+
 				</div>
 			</div>
 		</article>
@@ -47,4 +50,5 @@ layout: default
 			{% include most-recent.html %}
 		</aside>
 	</div>
+
 </div>

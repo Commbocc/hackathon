@@ -17,7 +17,7 @@ The purpose of the Hackathon is to illustrate the power of open government pract
 
 The National Day of Civic Hacking is a unique opportunity to bring together some of the best and brightest minds in the technology community to push forward civic innovation and open idea-sharing.
 
-The event is free and open to the public. Developers and other interested participants can [register online]({{site.eventbrite}}){:target="_blank"}.
+The event is free and open to the public. Developers and other interested participants can register online.
 
 <div class="table-responsive">
 	<table class="table table-striped">

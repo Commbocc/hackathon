@@ -22,3 +22,7 @@ googleanalytics: 'UA-63036279-1'
 
 # Build settings
 markdown: kramdown
+
+gems:
+ - jekyll-coffeescript
+ - jekyll-paginate

@@ -14,7 +14,7 @@ Hillsborough County and our community technologists, entrepreneurs and developer
 
 <div class="row">
 	<p class="col-md-6 col-md-offset-3">
-		<a href="{{site.eventbrite}}" class="btn btn-success btn-block" target="_blank">Register Here</a>
+		<a href="{{site.eventbrite}}" class="btn btn-register-2015 btn-success btn-block" target="_blank">Register Here</a>
 	</p>
 </div>
 
